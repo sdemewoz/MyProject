@@ -1,0 +1,1240 @@
+vendor             : 1200
+article            : PAP_347
+created with       : Created with [16.1.1] on [20181031]
+active form        : TResnapOverlayDialog
+pageCount          : 24
+active page        : 2
+operating system   : Windows 10 (Version 10.0, Build 0, 64-bit Edition)
+optional cover     : True
+premium layflat    : False
+date/time          : 2018-10-31, 16:10:13, 93ms
+system language    : Dutch
+system up time     : 22 hours 46 minutes
+program up time    : 22 minutes 54 seconds
+processors         : 8x Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+physical memory    : 7629/16283 MB (free/total)
+free disk space    : (C:) 47,91 GB
+display mode       : 1920x1080, 32 bit
+allocated memory   : 731,64 MB
+largest free block : 155,48 MB
+command line       : "C:\Users\sdemewoz\AppData\Local\Albelli Fotoboeken\apc.exe" /freshinstall
+exec. date/time    : 2018-10-31 15:26
+version            : 16.1.1.3915
+callstack crc      : $034add5c, $d57a33bb, $12e04069
+exception class    : EAccessViolation
+exception message  : Access violation at address 008D18B6 in module 'apc.exe'. Read of address 00000008.
+
+main thread ($31e0):
+008d18b6 +012 apc.exe             imageenview          19294  +1 TImageEnView.GetLayersCount
+01de62ef +03b apc.exe             APObjects             9522  +4 TalbumObject.RemoveLayer
+01de5c5c +00c apc.exe             APObjects             9364  +1 TalbumObject.delete
+01ddc422 +076 apc.exe             APObjects             5987  +5 TalbumPage.empty
+01e01056 +0e6 apc.exe             APObjects            18944 +12 Talbum.ClearPages
+01e00e92 +02e apc.exe             APObjects            18902  +1 Talbum.ClearAlbum
+00410d61 +009 apc.exe             System                  18  +0 @IntfCopy
+01536f3f +097 apc.exe             ResnapAPI.Translator   513 +10 TResnapTranslator.StartTranslation
+01538dc0 +088 apc.exe             ResnapAPI              615  +6 TResnapAPI.StartTranslation
+01538fc6 +026 apc.exe             ResnapAPI              652  +3 TResnapAPI.InternalLayoutsDone
+015349f1 +02d apc.exe             ResnapAPI.Layout       106  +3 TResnapLayout.DoLayoutDone
+004d992d +125 apc.exe             System.Classes                 CheckSynchronize
+0062d122 +76e apc.exe             Vcl.Forms                      TApplication.WndProc
+004dd84c +014 apc.exe             System.Classes                 StdWndProc
+032879cb +00b USER32.dll                                         DispatchMessageW
+0062da43 +0f3 apc.exe             Vcl.Forms                      TApplication.ProcessMessage
+0062da86 +00a apc.exe             Vcl.Forms                      TApplication.HandleMessage
+01cd7378 +040 apc.exe             APRibbonAppForm        217  +7 TAPRibbonAppForm.ShowModalEx
+01cd6033 +123 apc.exe             APDesignRibbonForm    1113 +33 TMainDesignRibbonForm.ShowChildForm
+01cd77f5 +045 apc.exe             APMDIChild              72  +3 TAPMDIChild.ShowModal
+01ad1a0d +055 apc.exe             APReSnapSelectForm    1883 +10 TReSnapSelectForm.DoStartResnapFlow
+01b285ef +053 apc.exe             APMainActions         1004  +5 TMainActions.StartResnapFlow
+01b28555 +011 apc.exe             APMainActions          985  +2 TMainActions.actResnapExecute
+004dcaef +00f apc.exe             System.Classes                 TBasicAction.Execute
+005542da +086 apc.exe             Vcl.ActnList                   TCustomAction.Execute
+00e6c990 +0c0 apc.exe             APHelperClasses         30  +7 TAction.Execute
+01b274b9 +2ad apc.exe             APMainActions          615 +55 TMainActions.OnNewProduct
+01a05d16 +02a apc.exe             APWelcomeForm          274  +3 TWelcomeForm.DoNewProduct
+01a06a14 +094 apc.exe             APWelcomeForm          533 +11 TWelcomeForm.OpenProductFromWelcome
+01a06d60 +2cc apc.exe             APWelcomeForm          578 +25 TWelcomeForm.WebBrowserBeforeNavigate2
+01609106 +0ba apc.exe             Vcl.OleCtrls                   TOleControl.InvokeEvent
+01610940 +034 apc.exe             SHDocVw                        TWebBrowser.InvokeEvent
+01606fc5 +035 apc.exe             Vcl.OleCtrls                   TEventDispatch.Invoke
+77966b3d +03d ntdll.dll                                          RtlAppendUnicodeStringToString
+759b32d3 +093 windows.storage.dll                                ILCombine
+643a4d83 +313 ieframe.dll                                        #222
+761b8d49 +049 msvcrt.dll                                         memcpy_s
+72f866d7 +017 iertutil.dll                                       CreateUri
+76696b98 +0e8 KERNELBASE.dll                                     CompareStringW
+766b0746 +016 KERNELBASE.dll                                     StrCmpIW
+01460085 +005 apc.exe             dxStatusBar                    TdxStatusBarKeyStateAppearance.SetActiveFontColor
+76696b98 +0e8 KERNELBASE.dll                                     CompareStringW
+7668382c +01c KERNELBASE.dll                                     StrCmpNIW
+76696b98 +0e8 KERNELBASE.dll                                     CompareStringW
+76696a78 +1d8 KERNELBASE.dll                                     StrStrIW
+032887b2 +122 USER32.dll                                         GetWindowLongW
+032879cb +00b USER32.dll                                         DispatchMessageW
+0062da43 +0f3 apc.exe             Vcl.Forms                      TApplication.ProcessMessage
+0062da86 +00a apc.exe             Vcl.Forms                      TApplication.HandleMessage
+0062ddb9 +0c9 apc.exe             Vcl.Forms                      TApplication.Run
+75f98482 +022 KERNEL32.DLL                                       BaseThreadInitThunk
+
+thread $2dfc:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $25e4:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $361c:
+03289f5e +5e USER32.dll             MsgWaitForMultipleObjects
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+69562059 +00 gdiplus.dll
+
+thread $3180: <priority:2>
+03278c1f +4f USER32.dll             GetMessageA
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+6aec32db +00 WINMM.dll
+
+thread $46b0:
+766945c3 +93 KERNELBASE.dll           WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll           WaitForSingleObject
+00da7bd1 +0d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $25e4 at:
+739d2091 +00 wininet.dll
+
+thread $31a8 (TX2RollingLogFileWorkerThread):
+766a593d +12d KERNELBASE.dll                                       WaitForMultipleObjectsEx
+00da79ad +019 apc.exe        madExcept                             InterceptClassDestroy
+004de410 +030 apc.exe        System.Classes                        TStreamWriter.Destroy
+0055a54a +056 apc.exe        System.SyncObjs                       THandleObject.WaitFor
+00cb230a +012 apc.exe        X2Log.Observer.CustomThreaded 238  +1 TX2LogObserverWorkerThread.WaitForEntry
+00cb2195 +045 apc.exe        X2Log.Observer.CustomThreaded 199 +10 TX2LogObserverWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept                             HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes                        ThreadProc
+0040bfc0 +028 apc.exe        System                         18  +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                             CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                             ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                                         BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+00cb1faf +06b apc.exe        X2Log.Observer.CustomThreaded 154  +5 TX2LogObserverWorkerThread.Create
+
+thread $2924 (TX2LogNamedPipeWorkerThread):
+766a593d +12d KERNELBASE.dll                                       WaitForMultipleObjectsEx
+766a57f3 +013 KERNELBASE.dll                                       WaitForMultipleObjects
+00cb7dbb +0cb apc.exe        X2Log.Observer.NamedPipe      330  +8 TX2LogNamedPipeWorkerThread.WaitForEntry
+00cb2195 +045 apc.exe        X2Log.Observer.CustomThreaded 199 +10 TX2LogObserverWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept                             HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes                        ThreadProc
+0040bfc0 +028 apc.exe        System                         18  +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                             CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                             ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                                         BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+00cb1faf +06b apc.exe        X2Log.Observer.CustomThreaded 154  +5 TX2LogObserverWorkerThread.Create
+
+thread $3270:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $45d0:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2bb0 (TAPWorkFolderHandler):
+766a593d +12d KERNELBASE.dll                            WaitForMultipleObjectsEx
+00410d50 +010 apc.exe        System               18 +0 @IntfClear
+00c96f37 +0cb apc.exe        X2Log.Client.Base    74 +3 TX2LogBaseClient.Log
+00caf363 +053 apc.exe        X2Log                88 +1 TX2Log.Verbose
+0055a54a +056 apc.exe        System.SyncObjs            THandleObject.WaitFor
+01b20e3f +04b apc.exe        APWorkfolderHandler 157 +3 TAPWorkFolderHandler.Execute
+00da7ceb +02b apc.exe        madExcept                  HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes             ThreadProc
+0040bfc0 +028 apc.exe        System               18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                  CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                  ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                              BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+01b20cd4 +088 apc.exe        APWorkfolderHandler 120 +8 TAPWorkFolderHandler.Create
+
+thread $3304:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3ddc (TRVWordEnumThread): <suspended> <priority:-2>
+7668686d +0d KERNELBASE.dll                        SuspendThread
+004da9b2 +32 apc.exe        System.Classes         TThread.Suspend
+00ab69ff +df apc.exe        RVThread       473 +19 TRVWordEnumThread.Execute
+00da7ceb +2b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +49 apc.exe        System.Classes         ThreadProc
+0040bfc0 +28 apc.exe        System          18  +0 ThreadWrapper
+00da7bd1 +0d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+00ab6248 +18 apc.exe        RVThread       104  +1 TRVWordEnumThread.Create
+
+thread $127c (TIEStarter):
+766945c3 +93 KERNELBASE.dll                         WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll                         WaitForSingleObject
+007fa08d +31 apc.exe        iemview        10912 +1 TIEStarter.Execute
+00da7ceb +2b apc.exe        madExcept               HookedTThreadExecute
+004d9a91 +49 apc.exe        System.Classes          ThreadProc
+0040bfc0 +28 apc.exe        System            18 +0 ThreadWrapper
+00da7bd1 +0d apc.exe        madExcept               CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept               ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL                           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+007f9ff6 +32 apc.exe        iemview        10896 +2 TIEStarter.Create
+
+thread $580 (TIEStarter):
+766945c3 +093 KERNELBASE.dll                          WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                          WaitForSingleObject
+007fa50d +4b1 apc.exe        iemview        10987 +76 TIEStarter.Execute
+00da7ceb +02b apc.exe        madExcept                HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes           ThreadProc
+0040bfc0 +028 apc.exe        System            18  +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+007f9ff6 +032 apc.exe        iemview        10896  +2 TIEStarter.Create
+
+thread $2b9c (TIEStarter):
+766945c3 +93 KERNELBASE.dll                         WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll                         WaitForSingleObject
+007fa08d +31 apc.exe        iemview        10912 +1 TIEStarter.Execute
+00da7ceb +2b apc.exe        madExcept               HookedTThreadExecute
+004d9a91 +49 apc.exe        System.Classes          ThreadProc
+0040bfc0 +28 apc.exe        System            18 +0 ThreadWrapper
+00da7bd1 +0d apc.exe        madExcept               CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept               ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL                           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+007f9ff6 +32 apc.exe        iemview        10896 +2 TIEStarter.Create
+
+thread $47c4 (TWorkerThread):
+766945c3 +93 KERNELBASE.dll                                  WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll                                  WaitForSingleObject
+016fd0ae +26 apc.exe        VirtualTrees.WorkerThread 150 +4 TWorkerThread.Execute
+00da7ceb +2b apc.exe        madExcept                        HookedTThreadExecute
+004d9a91 +49 apc.exe        System.Classes                   ThreadProc
+0040bfc0 +28 apc.exe        System                     18 +0 ThreadWrapper
+00da7bd1 +0d apc.exe        madExcept                        CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept                        ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL                                    BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+016fcfca +16 apc.exe        VirtualTrees.WorkerThread  97 +1 TWorkerThread.Create
+
+thread $f40 (TIEStarter):
+766945c3 +93 KERNELBASE.dll                         WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll                         WaitForSingleObject
+007fa08d +31 apc.exe        iemview        10912 +1 TIEStarter.Execute
+00da7ceb +2b apc.exe        madExcept               HookedTThreadExecute
+004d9a91 +49 apc.exe        System.Classes          ThreadProc
+0040bfc0 +28 apc.exe        System            18 +0 ThreadWrapper
+00da7bd1 +0d apc.exe        madExcept               CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept               ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL                           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+007f9ff6 +32 apc.exe        iemview        10896 +2 TIEStarter.Create
+
+thread $2ef0 (TIEStarter):
+766945c3 +093 KERNELBASE.dll                          WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                          WaitForSingleObject
+007fa50d +4b1 apc.exe        iemview        10987 +76 TIEStarter.Execute
+00da7ceb +02b apc.exe        madExcept                HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes           ThreadProc
+0040bfc0 +028 apc.exe        System            18  +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+007f9ff6 +032 apc.exe        iemview        10896  +2 TIEStarter.Create
+
+thread $3878:
+766945c3 +93 KERNELBASE.dll           WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll           WaitForSingleObject
+76196b3c +8c msvcrt.dll               _endthreadex
+00da7bd1 +0d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+76196a2f +7f msvcrt.dll               _beginthreadex
+
+thread $320c:
+766945c3 +93 KERNELBASE.dll           WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll           WaitForSingleObject
+76196b3c +8c msvcrt.dll               _endthreadex
+00da7bd1 +0d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+76196a2f +7f msvcrt.dll               _beginthreadex
+
+thread $b94: <priority:-1>
+766a593d +12d KERNELBASE.dll           WaitForMultipleObjectsEx
+76196b3c +08c msvcrt.dll               _endthreadex
+00da7bd1 +00d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+76196a2f +07f msvcrt.dll               _beginthreadex
+
+thread $2638:
+03289ffe +5e USER32.dll             MsgWaitForMultipleObjectsEx
+76fe2f79 +89 combase.dll            CoWaitForMultipleHandles
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+62ef2f68 +00 mshtml.dll
+
+thread $1d3c: <priority:-1>
+766a593d +12d KERNELBASE.dll           WaitForMultipleObjectsEx
+76196b3c +08c msvcrt.dll               _endthreadex
+00da7bd1 +00d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+76196a2f +07f msvcrt.dll               _beginthreadex
+
+thread $1634:
+766945c3 +93 KERNELBASE.dll           WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll           WaitForSingleObject
+76196b3c +8c msvcrt.dll               _endthreadex
+00da7bd1 +0d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+76196a2f +7f msvcrt.dll               _beginthreadex
+
+thread $3794:
+03289ffe +5e USER32.dll             MsgWaitForMultipleObjectsEx
+76fe2f79 +89 combase.dll            CoWaitForMultipleHandles
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by thread $2638 at:
+62ef2f68 +00 mshtml.dll
+
+thread $edc:
+03289ffe +5e USER32.dll             MsgWaitForMultipleObjectsEx
+76fe2f79 +89 combase.dll            CoWaitForMultipleHandles
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by thread $2638 at:
+62ef2f68 +00 mshtml.dll
+
+thread $2694:
+766945c3 +93 KERNELBASE.dll           WaitForSingleObjectEx
+7669451d +0d KERNELBASE.dll           WaitForSingleObject
+00da7bd1 +0d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe        madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+62ef2f68 +00 mshtml.dll
+
+thread $3704: <priority:15>
+766a593d +12d KERNELBASE.dll           WaitForMultipleObjectsEx
+766a57f3 +013 KERNELBASE.dll           WaitForMultipleObjects
+00da7bd1 +00d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+62ffb51e +000 mshtml.dll
+
+thread $23a4:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $229c:
+766a593d +12d KERNELBASE.dll           WaitForMultipleObjectsEx
+00da7bd1 +00d apc.exe        madExcept CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $2dfc at:
+67c14bce +000 inputhost.dll
+
+thread $2cd0:
+766b58fd +3d KERNELBASE.dll                ConnectNamedPipe
+00da7bd1 +0d apc.exe             madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe             madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL                  BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+77c58885 +00 DropboxExt.25.0.dll
+
+thread $22e4:
+03289ffe +5e USER32.dll             MsgWaitForMultipleObjectsEx
+76fe2f79 +89 combase.dll            CoWaitForMultipleHandles
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+76206713 +00 shcore.dll
+
+thread $4540:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $16fc:
+75f98482 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $7c8 (TThreadPool.TQueueWorkerThread): <priority:-2>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $1ccc (TThreadPool.TQueueWorkerThread): <priority:-2>
+766945c3 +093 KERNELBASE.dll                          WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                          WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils          WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils          WaitOrSignalObj
+0040b125 +065 apc.exe        System            18  +0 TMonitor.Wait
+0040b1b4 +020 apc.exe        System            18  +0 TMonitor.Wait
+004da557 +137 apc.exe        System.Classes           TThread.Synchronize
+004da6bc +060 apc.exe        System.Classes           TThread.Synchronize
+0153518a +3be apc.exe        ResnapAPI.Layout 221 +75 TResnapLayout.ExecuteAsync
+00db8d57 +047 apc.exe        System.Threading         TTask.Execute
+00db9a29 +029 apc.exe        System.Threading         TTask.InternalExecute
+00db9b2e +062 apc.exe        System.Threading         TTask.InternalWork
+00db917d +01d apc.exe        System.Threading         TTask.ExecuteWork
+00dbb989 +02d apc.exe        System.Threading         TThreadPool.TQueueWorkerThread.ExecuteWorkItem
+00dbb5df +3d3 apc.exe        System.Threading         TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept                HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes           ThreadProc
+0040bfc0 +028 apc.exe        System            18  +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+00dbafcf +01f apc.exe        System.Threading         TThreadPool.TBaseWorkerThread.Create
+
+thread $165c: <priority:1>
+00da7bd1 +0d apc.exe      madExcept CallThreadProcSafe
+00da7c36 +32 apc.exe      madExcept ThreadExceptFrame
+75f98482 +22 KERNEL32.DLL           BaseThreadInitThunk
+>> created by thread $1ccc (TThreadPool.TQueueWorkerThread) at:
+6de3a424 +00 mswsock.dll
+
+thread $36c8 (TX2LogFileWorkerThread):
+766a593d +12d KERNELBASE.dll                                       WaitForMultipleObjectsEx
+00da79ad +019 apc.exe        madExcept                             InterceptClassDestroy
+004de410 +030 apc.exe        System.Classes                        TStreamWriter.Destroy
+0055a54a +056 apc.exe        System.SyncObjs                       THandleObject.WaitFor
+00cb230a +012 apc.exe        X2Log.Observer.CustomThreaded 238  +1 TX2LogObserverWorkerThread.WaitForEntry
+00cb2195 +045 apc.exe        X2Log.Observer.CustomThreaded 199 +10 TX2LogObserverWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept                             HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes                        ThreadProc
+0040bfc0 +028 apc.exe        System                         18  +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept                             CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept                             ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                                         BaseThreadInitThunk
+>> created by main thread ($31e0) at:
+00cb1faf +06b apc.exe        X2Log.Observer.CustomThreaded 154  +5 TX2LogObserverWorkerThread.Create
+
+thread $286c (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $3160 (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $17d8 (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $26cc (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $2890 (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $35c (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $2f5c (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+thread $3718 (TThreadPool.TQueueWorkerThread): <priority:-1>
+766945c3 +093 KERNELBASE.dll                        WaitForSingleObjectEx
+7669451d +00d KERNELBASE.dll                        WaitForSingleObject
+00433c7e +002 apc.exe        System.SysUtils        WaitForSyncWaitObj
+00433dc7 +01f apc.exe        System.SysUtils        WaitOrSignalObj
+0040b125 +065 apc.exe        System           18 +0 TMonitor.Wait
+0040b18b +017 apc.exe        System           18 +0 TMonitor.Wait
+00dbb3e5 +1d9 apc.exe        System.Threading       TThreadPool.TQueueWorkerThread.Execute
+00da7ceb +02b apc.exe        madExcept              HookedTThreadExecute
+004d9a91 +049 apc.exe        System.Classes         ThreadProc
+0040bfc0 +028 apc.exe        System           18 +0 ThreadWrapper
+00da7bd1 +00d apc.exe        madExcept              CallThreadProcSafe
+00da7c36 +032 apc.exe        madExcept              ThreadExceptFrame
+75f98482 +022 KERNEL32.DLL                          BaseThreadInitThunk
+>> created by thread $7c8 (TThreadPool.TQueueWorkerThread) at:
+00dbafcf +01f apc.exe        System.Threading       TThreadPool.TBaseWorkerThread.Create
+
+modules:
+00400000 apc.exe                       16.1.1.3915         C:\Users\sdemewoz\AppData\Local\Albelli Fotoboeken
+03250000 USER32.dll                    10.0.17134.319      C:\WINDOWS\System32
+07000000 Cabinet.dll                   5.0.1.1             C:\WINDOWS\system32
+07ac0000 NetworkExplorer.dll           10.0.17134.1        C:\WINDOWS\system32
+07c80000 dlnashext.dll                 10.0.17134.1        C:\Windows\System32
+07d50000 DevDispItemProvider.dll       10.0.17134.1        C:\Windows\System32
+07d80000 PortableDeviceTypes.dll       10.0.17134.1        C:\Windows\System32
+08200000 UIAnimation.dll               10.0.17134.1        C:\WINDOWS\System32
+16070000 PortableDeviceApi.dll         10.0.17134.1        C:\Windows\System32
+16610000 Flash.ocx                     31.0.0.122          C:\Windows\System32\Macromed\Flash
+19460000 WMASF.DLL                     12.0.17134.1        C:\WINDOWS\system32
+1e530000 APViesus8.dll                 8.0.2.0             C:\Users\sdemewoz\AppData\Local\Albelli Fotoboeken
+1e660000 MrmCoreR.dll                  10.0.17134.1        C:\Windows\System32
+207c0000 WMVCore.DLL                   12.0.17134.137      C:\WINDOWS\system32
+209e0000 mfperfhelper.dll              10.0.17134.1        C:\WINDOWS\system32
+3f410000 audiodev.dll                  10.0.17134.1        C:\WINDOWS\system32
+3f5d0000 wpdshext.dll                  10.0.17134.1        C:\WINDOWS\system32
+46480000 security.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+50000000 DAVHLPR.dll                   10.0.17134.1        C:\WINDOWS\System32
+50010000 drprov.dll                    10.0.17134.1        C:\WINDOWS\System32
+50020000 policymanager.dll             10.0.17134.191      C:\WINDOWS\SYSTEM32
+500b0000 capauthz.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+50100000 MFPlat.DLL                    10.0.17134.191      C:\WINDOWS\system32
+50540000 ntshrui.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+55f40000 DSOUND.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+59cf0000 mscms.dll                     10.0.17134.1        C:\WINDOWS\SYSTEM32
+60d00000 olepro32.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+60d20000 CompPkgSup.DLL                10.0.17134.81       C:\WINDOWS\system32
+60d40000 RTWorkQ.DLL                   10.0.17134.1        C:\WINDOWS\system32
+60d70000 msheif.dll                    10.0.17134.81       C:\WINDOWS\system32
+60d80000 cscapi.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+60d90000 MSVFW32.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+60dc0000 avifil32.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+60df0000 MSACM32.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+60f80000 MMDevApi.dll                  10.0.17134.1        C:\WINDOWS\System32
+611d0000 ColorAdapterClient.dll        10.0.17134.1        C:\WINDOWS\SYSTEM32
+611e0000 windowscodecsext.dll          10.0.17134.1        C:\WINDOWS\system32
+61230000 windowscodecs.dll             10.0.17134.345      C:\WINDOWS\system32
+61460000 UIAutomationCore.DLL          7.2.17134.112       C:\WINDOWS\SYSTEM32
+61600000 d3d10warp.dll                 10.0.17134.112      C:\WINDOWS\SYSTEM32
+61b90000 DWrite.dll                    10.0.17134.1        C:\Windows\System32
+61e20000 d2d1.dll                      10.0.17134.320      C:\Windows\System32
+62340000 msimtf.dll                    10.0.17134.1        C:\WINDOWS\system32
+62350000 jscript9.dll                  11.0.17134.345      C:\Windows\System32
+626f0000 ieapfltr.dll                  11.0.17134.254      C:\Windows\System32
+62860000 WLDP.DLL                      10.0.17134.228      C:\WINDOWS\SYSTEM32
+62880000 srpapi.dll                    10.0.17134.1        C:\Windows\System32
+62930000 SRVCLI.DLL                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+62990000 mshtml.dll                    11.0.17134.345      C:\Windows\System32
+63d30000 msIso.dll                     11.0.17134.320      C:\WINDOWS\SYSTEM32
+63d80000 ondemandconnroutehelper.dll   10.0.17134.1        C:\WINDOWS\SYSTEM32
+63da0000 dcomp.dll                     10.0.17134.1        C:\WINDOWS\system32
+63ee0000 dxgi.dll                      10.0.17134.112      C:\WINDOWS\system32
+63f80000 d3d11.dll                     10.0.17134.112      C:\WINDOWS\system32
+641e0000 dataexchange.dll              10.0.17134.1        C:\WINDOWS\system32
+64230000 ieframe.dll                   11.0.17134.254      C:\Windows\System32
+65060000 TextInputFramework.dll        10.0.17134.191      C:\WINDOWS\SYSTEM32
+65360000 msxml6.dll                    6.30.17134.345      C:\Windows\System32
+65710000 MLANG.dll                     10.0.17134.1        C:\WINDOWS\SYSTEM32
+66e40000 FaultRep.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+678e0000 CoreUIComponents.dll          10.0.17134.112      C:\WINDOWS\SYSTEM32
+67b40000 CoreMessaging.dll             10.0.17134.345      C:\WINDOWS\SYSTEM32
+67bd0000 inputhost.dll                                     C:\WINDOWS\SYSTEM32
+67c30000 atlthunk.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+68710000 msimg32.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+68720000 DCIMAN32.DLL                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+694f0000 gdiplus.dll                   10.0.17134.345      C:\WINDOWS\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.345_none_73dac4159f74062c
+6a980000 ncryptsslp.dll                10.0.17134.137      C:\WINDOWS\system32
+6a9a0000 NTASN1.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+6a9d0000 ncrypt.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+6a9f0000 schannel.dll                  10.0.17134.319      C:\WINDOWS\System32
+6aa60000 ktmw32.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+6aa70000 dbghelp.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+6ac60000 dbgcore.DLL                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+6acc0000 webio.dll                     10.0.17134.1        C:\WINDOWS\SYSTEM32
+6ae30000 oleacc.dll                    7.2.17134.1         C:\WINDOWS\SYSTEM32
+6ae90000 winmmbase.dll                 10.0.17134.1        C:\WINDOWS\SYSTEM32
+6aec0000 WINMM.dll                     10.0.17134.1        C:\WINDOWS\SYSTEM32
+6aef0000 winspool.drv                  10.0.17134.319      C:\WINDOWS\SYSTEM32
+6afa0000 WINNSI.DLL                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+6b080000 dhcpcsvc6.DLL                 10.0.17134.1        C:\WINDOWS\SYSTEM32
+6b1f0000 SECUR32.DLL                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+6b2e0000 comctl32.dll                  6.10.17134.345      C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.345_none_42efd13044e18c5e
+6b5a0000 uxtheme.dll                   10.0.17134.1        C:\WINDOWS\system32
+6b7a0000 fwpuclnt.dll                  10.0.17134.1        C:\WINDOWS\System32
+6d050000 mskeyprotect.dll              10.0.17134.1        C:\WINDOWS\SYSTEM32
+6d060000 dwmapi.dll                    10.0.17134.1        C:\WINDOWS\system32
+6d090000 DNSAPI.dll                    10.0.17134.165      C:\WINDOWS\SYSTEM32
+6d220000 WINSTA.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+6d8a0000 RMCLIENT.dll                  10.0.17134.81       C:\WINDOWS\system32
+6d8c0000 apphelp.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+6d9c0000 twinapi.appcore.dll           10.0.17134.137      C:\WINDOWS\system32
+6db50000 sxs.dll                       10.0.17134.1        C:\WINDOWS\SYSTEM32
+6de20000 mswsock.dll                   10.0.17134.1        C:\WINDOWS\system32
+6de80000 SHFolder.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+6dea0000 rasadhlp.dll                  10.0.17134.1        C:\Windows\System32
+6ded0000 DEVOBJ.dll                    10.0.17134.1        C:\WINDOWS\System32
+6df60000 OneCoreUAPCommonProxyStub.dll 10.0.17134.1        C:\Windows\System32
+6fc40000 WinTypes.dll                  10.0.17134.112      C:\Windows\System32
+702b0000 cabview.dll                   10.0.17134.1        C:\WINDOWS\system32
+72290000 wkscli.dll                    10.0.17134.1        C:\WINDOWS\SYSTEM32
+722a0000 DPAPI.DLL                     10.0.17134.1        C:\WINDOWS\System32
+722b0000 wsock32.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+72360000 winhttp.dll                   10.0.17134.137      C:\WINDOWS\SYSTEM32
+725c0000 rsaenh.dll                    10.0.17134.254      C:\WINDOWS\system32
+725f0000 CRYPTSP.dll                   10.0.17134.1        C:\Windows\System32
+72de0000 iertutil.dll                  11.0.17134.320      C:\WINDOWS\SYSTEM32
+73010000 urlmon.dll                    11.0.17134.345      C:\WINDOWS\SYSTEM32
+731b0000 edputil.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+731f0000 PROPSYS.dll                   7.0.17134.112       C:\WINDOWS\SYSTEM32
+73370000 ntmarta.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+733a0000 NETUTILS.DLL                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+733d0000 bcrypt.dll                    10.0.17134.112      C:\WINDOWS\SYSTEM32
+735f0000 dhcpcsvc.DLL                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+73750000 wininet.dll                   11.0.17134.345      C:\WINDOWS\SYSTEM32
+73b60000 Mpr.dll                       10.0.17134.1        C:\WINDOWS\SYSTEM32
+73b80000 version.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+73b90000 netapi32.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+73bb0000 Userenv.dll                   10.0.17134.1        C:\WINDOWS\SYSTEM32
+741a0000 IPHLPAPI.DLL                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+741d0000 wtsapi32.dll                  10.0.17134.1        C:\WINDOWS\SYSTEM32
+741e0000 CRYPTBASE.dll                 10.0.17134.1        C:\WINDOWS\System32
+741f0000 SspiCli.dll                   10.0.17134.1        C:\WINDOWS\System32
+74210000 ole32.dll                     10.0.17134.137      C:\WINDOWS\System32
+74310000 psapi.dll                     10.0.17134.1        C:\WINDOWS\System32
+74320000 CRYPT32.dll                   10.0.17134.1        C:\WINDOWS\System32
+744c0000 SHELL32.dll                   10.0.17134.320      C:\WINDOWS\System32
+75810000 powrprof.dll                  10.0.17134.1        C:\WINDOWS\System32
+75860000 windows.storage.dll           10.0.17134.345      C:\WINDOWS\System32
+75e80000 GDI32.dll                     10.0.17134.285      C:\WINDOWS\System32
+75eb0000 WS2_32.dll                    10.0.17134.1        C:\WINDOWS\System32
+75f20000 bcryptPrimitives.dll          10.0.17134.345      C:\WINDOWS\System32
+75f80000 KERNEL32.DLL                  10.0.17134.1        C:\WINDOWS\System32
+76070000 MSASN1.dll                    10.0.17134.1        C:\WINDOWS\System32
+76080000 FLTLIB.DLL                    10.0.17134.1        C:\WINDOWS\System32
+76090000 advapi32.dll                  10.0.17134.319      C:\WINDOWS\System32
+76110000 win32u.dll                    10.0.17134.1        C:\WINDOWS\System32
+76130000 msvcrt.dll                    7.0.17134.1         C:\WINDOWS\System32
+761f0000 shcore.dll                    10.0.17134.112      C:\WINDOWS\System32
+76310000 cfgmgr32.dll                  10.0.17134.1        C:\WINDOWS\System32
+76350000 clbcatq.dll                   2001.12.10941.16384 C:\WINDOWS\System32
+763e0000 sechost.dll                   10.0.17134.319      C:\WINDOWS\System32
+765a0000 KERNELBASE.dll                10.0.17134.319      C:\WINDOWS\System32
+76790000 comdlg32.dll                  10.0.17134.1        C:\WINDOWS\System32
+76870000 SETUPAPI.dll                  10.0.17134.1        C:\WINDOWS\System32
+76ca0000 kernel.appcore.dll            10.0.17134.112      C:\WINDOWS\System32
+76cb0000 msvcp_win.dll                 10.0.17134.1        C:\WINDOWS\System32
+76d30000 oleaut32.dll                  10.0.17134.48       C:\WINDOWS\System32
+76dd0000 profapi.dll                   10.0.17134.1        C:\WINDOWS\System32
+76df0000 WINTRUST.dll                  10.0.17134.81       C:\WINDOWS\System32
+76e40000 ucrtbase.dll                  10.0.17134.319      C:\WINDOWS\System32
+76f60000 combase.dll                   10.0.17134.112      C:\WINDOWS\System32
+771c0000 gdi32full.dll                 10.0.17134.345      C:\WINDOWS\System32
+77520000 IMM32.DLL                     10.0.17134.1        C:\WINDOWS\System32
+77550000 coml2.dll                     10.0.17134.1        C:\WINDOWS\System32
+775d0000 NSI.dll                       10.0.17134.1        C:\WINDOWS\System32
+775e0000 Msctf.dll                     10.0.17134.319      C:\WINDOWS\System32
+77730000 SHLWAPI.dll                   10.0.17134.1        C:\WINDOWS\System32
+77780000 RPCRT4.dll                    10.0.17134.112      C:\WINDOWS\System32
+77930000 ntdll.dll                     10.0.17134.254      C:\WINDOWS\SYSTEM32
+77ad0000 PhotoMetadataHandler.dll      10.0.17134.345      C:\WINDOWS\system32
+77c10000 davclnt.dll                   10.0.17134.1        C:\WINDOWS\System32
+77c30000 ntlanman.dll                  10.0.17134.1        C:\WINDOWS\System32
+77c50000 DropboxExt.25.0.dll           1.0.25.0            C:\Program Files (x86)\Dropbox\Client
+77ca0000 FileSyncShell.dll             18.192.920.12       C:\Users\sdemewoz\AppData\Local\Microsoft\OneDrive\18.192.0920.0012
+77de0000 thumbcache.dll                10.0.17134.319      C:\Windows\System32
+77e30000 dinput8.dll                   10.0.17134.254      C:\WINDOWS\system32
+77e70000 T2EMBED.DLL                   10.0.17134.285      C:\WINDOWS\SYSTEM32
+77ea0000 icm32.dll                     10.0.17134.1        C:\WINDOWS\SYSTEM32
+77ee0000 zipfldr.dll                   10.0.17134.165      C:\WINDOWS\system32
+77f40000 APPdfWin.dll                  2.1.5.0             C:\Users\sdemewoz\AppData\Local\Albelli Fotoboeken
+77f90000 msvcp110_win.dll              10.0.17134.1        C:\WINDOWS\SYSTEM32
+
+processes:
+0000 Idle                              0 0   0
+0004 System                            0 0   0
+0048 Secure System                     0 0   0
+0080 Registry                          0 0   0
+0240 smss.exe                          0 0   0
+0354 csrss.exe                         0 0   0
+03c0 wininit.exe                       0 0   0
+03c8 csrss.exe                         1 0   0
+0068 services.exe                      0 0   0
+0058 LsaIso.exe                        0 0   0
+0174 lsass.exe                         0 0   0
+0334 winlogon.exe                      1 0   0
+0470 svchost.exe                       0 0   0
+0484 WUDFHost.exe                      0 0   0
+048c svchost.exe                       0 0   0
+04e8 svchost.exe                       0 0   0
+0510 svchost.exe                       0 0   0
+0588 svchost.exe                       0 0   0
+05cc svchost.exe                       0 0   0
+05d4 svchost.exe                       0 0   0
+05f8 dwm.exe                           1 0   0
+0604 svchost.exe                       0 0   0
+0614 svchost.exe                       0 0   0
+061c svchost.exe                       0 0   0
+0684 svchost.exe                       0 0   0
+068c svchost.exe                       0 0   0
+0694 svchost.exe                       0 0   0
+06dc svchost.exe                       0 0   0
+0700 svchost.exe                       0 0   0
+07bc svchost.exe                       0 0   0
+07ec svchost.exe                       0 0   0
+0450 svchost.exe                       0 0   0
+0810 svchost.exe                       0 0   0
+0820 svchost.exe                       0 0   0
+08b8 NVDisplay.Container.exe           0 0   0
+08c0 svchost.exe                       0 0   0
+08ec svchost.exe                       0 0   0
+0920 svchost.exe                       0 0   0
+0928 svchost.exe                       0 0   0
+0948 svchost.exe                       0 0   0
+0998 svchost.exe                       0 0   0
+09a0 svchost.exe                       0 0   0
+09a8 svchost.exe                       0 0   0
+0a60 svchost.exe                       0 0   0
+0a68 svchost.exe                       0 0   0
+0a98 Memory Compression                0 0   0
+0ac4 svchost.exe                       0 0   0
+0ad4 svchost.exe                       0 0   0
+0ae8 svchost.exe                       0 0   0
+0b10 svchost.exe                       0 0   0
+0b78 svchost.exe                       0 0   0
+0b80 igfxCUIService.exe                0 0   0
+062c svchost.exe                       0 0   0
+089c svchost.exe                       0 0   0
+0c3c svchost.exe                       0 0   0
+0cec svchost.exe                       0 0   0
+0d64 svchost.exe                       0 0   0
+0dbc svchost.exe                       0 0   0
+0e50 RtkAudioService64.exe             0 0   0
+0e5c WavesSysSvc64.exe                 0 0   0
+0e64 WUDFHost.exe                      0 0   0
+0eb8 svchost.exe                       0 0   0
+0ec0 svchost.exe                       0 0   0
+0f38 svchost.exe                       0 0   0
+0f9c svchost.exe                       0 0   0
+0fcc scheduler.exe                     0 0   0
+0c44 RAVBg64.exe                       1 0   0
+0d08 spoolsv.exe                       0 0   0
+1054 svchost.exe                       0 0   0
+1060 armsvc.exe                        0 0   0
+1074 svchost.exe                       0 0   0
+107c svchost.exe                       0 0   0
+10a8 fontdrvhost.exe                   0 0   0
+10b0 fontdrvhost.exe                   1 0   0
+10b8 DbxSvc.exe                        0 0   0
+10c0 ForensiTAppxService.exe           0 0   0
+10c8 ruby.exe                          0 0   0
+10d0 AdobeUpdateService.exe            0 0   0
+10d8 IntelCpHDCPSvc.exe                0 0   0
+10e0 mDNSResponder.exe                 0 0   0
+10e8 AGMService.exe                    0 0   0
+1100 OfficeClickToRun.exe              0 0   0
+1108 dcagentservice.exe                0 0   0
+1110 httpd.exe                         0 0   0
+111c CSFalconService.exe               0 0   0
+1128 pabeSvc64.exe                     0 0   0
+1130 AGSService.exe                    0 0   0
+113c svchost.exe                       0 0   0
+1148 svchost.exe                       0 0   0
+1150 Ranorex.Dex.Agent.Launcher.exe    0 0   0
+1158 nvcontainer.exe                   0 0   0
+1160 NLSvc.exe                         0 0   0
+1168 NvTelemetryContainer.exe          0 0   0
+11bc svchost.exe                       0 0   0
+11c4 Ranorex.LicenseService.exe        0 0   0
+11d8 svchost.exe                       0 0   0
+11cc IpOverUsbSvc.exe                  0 0   0
+1260 SecurityHealthService.exe         0 0   0
+12b0 sqlwriter.exe                     0 0   0
+1300 svchost.exe                       0 0   0
+1318 TeamViewer_Service.exe            0 0   0
+1320 svchost.exe                       0 0   0
+1330 McAfee.TrueKey.Service.exe        0 0   0
+1360 McTkSchedulerService.exe          0 0   0
+1370 vmms.exe                          0 0   0
+138c svchost.exe                       0 0   0
+1398 vncserver.exe                     0 0   0
+14b0 svchost.exe                       0 0   0
+16a0 svchost.exe                       0 0   0
+1798 dcswmeter.exe                     0 0   0
+17d0 IntelCpHeciSvc.exe                0 0   0
+17fc conhost.exe                       0 0   0
+19a0 FCDBLog.exe                       0 0   0
+19b8 WmiPrvSE.exe                      0 0   0
+1b8c CSFalconContainer.exe             0 0   0
+1ac8 httpd.exe                         0 0   0
+1d9c FortiSSLVPNdaemon.exe             0 0   0
+1db8 svchost.exe                       0 0   0
+1dc0 svchost.exe                       0 0   0
+21d8 vmcompute.exe                     0 0   0
+22b4 NVDisplay.Container.exe           1 0   0
+23e4 svchost.exe                       0 0   0
+1930 vncagent.exe                      1 0   0
+1ee0 svchost.exe                       0 0   0
+1328 svchost.exe                       0 0   0
+238c svchost.exe                       0 0   0
+1d68 mongod.exe                        0 0   0
+243c nvcontainer.exe                   1 0   11  normal       C:\Program Files (x86)\NVIDIA Corporation\NvContainer
+248c sihost.exe                        1 0   12  normal       C:\Windows\System32
+24c8 svchost.exe                       1 0   1   normal       C:\Windows\System32
+24e4 PresentationFontCache.exe         0 0   0
+255c explorer.exe                      1 757 704 normal       C:\Windows
+25a4 igfxEM.exe                        1 13  15  normal       C:\Windows\System32\DriverStore\FileRepository\ki125694.inf_amd64_1331072a649f62e0
+25ec vncserverui.exe                   1 179 173 normal       C:\Program Files\RealVNC\VNC Server
+270c svchost.exe                       0 0   0
+2590 svchost.exe                       0 0   0
+2814 ShellExperienceHost.exe           1 7   64  normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+28b4 SearchUI.exe                      1 14  63  normal       C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+28cc dllhost.exe                       1 1   3   normal       C:\Windows\System32
+28f4 dllhost.exe                       1 0   3   normal       C:\Windows\System32
+292c RuntimeBroker.exe                 1 40  4   normal       C:\Windows\System32
+2ae0 RuntimeBroker.exe                 1 36  15  normal       C:\Windows\System32
+2af4 svchost.exe                       0 0   0
+2b54 ctfmon.exe                        1 0   0
+2b80 svchost.exe                       0 0   0
+2bf8 SearchIndexer.exe                 0 0   0
+2604 FCHelper64.exe                    0 0   0
+2c48 SkypeBackgroundHost.exe           1 0   1   normal       C:\Program Files\WindowsApps\Microsoft.SkypeApp_14.33.41.0_x64__kzf8qxf38zg5c
+2ca8 FortiTray.exe                     1 91  181 normal       C:\Program Files (x86)\Fortinet\FortiClient
+2f10 taskhostw.exe                     1 8   6   normal       C:\Windows\System32
+2f74 svchost.exe                       0 0   0
+2fb0 svchost.exe                       0 0   0
+2fe4 GoogleCrashHandler.exe            0 0   0
+2fa4 NVIDIA Web Helper.exe             1 2   12  below normal C:\Program Files (x86)\NVIDIA Corporation\NvNode
+2f9c GoogleCrashHandler64.exe          0 0   0
+2f24 conhost.exe                       1 10  3   below normal C:\Windows\System32
+07fc OfficeHubTaskHost.exe             1 0   2   normal       C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_17.10314.31700.1000_x64__8wekyb3d8bbwe\Office16
+311c RuntimeBroker.exe                 1 40  3   normal       C:\Windows\System32
+32c8 audiodg.exe                       0 0   0
+33e8 RuntimeBroker.exe                 1 0   1   normal       C:\Windows\System32
+3640 MSASCuiL.exe                      1 7   6   normal       C:\Program Files\Windows Defender
+3720 proximity.exe                     1 29  27  normal       C:\Program Files\Proximity
+3708 svchost.exe                       1 0   2   normal       C:\Windows\System32
+3810 RtkNGUI64.exe                     1 31  26  normal       C:\Program Files\Realtek\Audio\HDA
+385c RAVBg64.exe                       1 13  18  normal       C:\Program Files\Realtek\Audio\HDA
+38a0 WavesSvc64.exe                    1 0   2   normal       C:\Program Files\Waves\MaxxAudio
+38cc OneDrive.exe                      1 67  45  normal       C:\Users\sdemewoz\AppData\Local\Microsoft\OneDrive
+395c AdobeCollabSync.exe               1 10  7   normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+39ec AdobeCollabSync.exe               1 0   2   normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+3a70 voipconnect.exe                   1 874 412 normal       C:\Program Files (x86)\VoipConnect.com\VoipConnect
+36b0 slack.exe                         1 78  62  normal       C:\Users\sdemewoz\AppData\Local\slack\app-3.3.3
+2c88 CiscoCollabHost.exe               1 26  28  normal       C:\Users\sdemewoz\AppData\Local\CiscoSparkLauncher
+3ab4 rubyw.exe                         0 0   0
+3a44 PdaNetPC.exe                      1 30  50  normal       C:\Program Files (x86)\PdaNet for Android
+3ab0 acrotray.exe                      1 45  13  normal       C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+3c64 ONENOTEM.EXE                      1 16  9   normal       C:\Program Files\Microsoft Office\root\Office16
+3c84 Creative Cloud.exe                1 101 64  normal       C:\Program Files (x86)\Adobe\Adobe Creative Cloud\ACC
+3cb4 CiscoCollabHost.exe               1 1   22  normal       C:\Users\sdemewoz\AppData\Local\CiscoSparkLauncher
+3d7c AdobeIPCBroker.exe                1 0   7   normal       C:\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\IPC
+3eb0 jusched.exe                       1 0   2   normal       C:\Program Files (x86)\Common Files\Java\Java Update
+3f24 slack.exe                         1 9   19  normal       C:\Users\sdemewoz\AppData\Local\slack\app-3.3.3
+3f44 slack.exe                         1 0   3   normal       C:\Users\sdemewoz\AppData\Local\slack\app-3.3.3
+3cec slack.exe                         1 0   1   idle         C:\Users\sdemewoz\AppData\Local\slack\app-3.3.3
+2420 Adobe Desktop Service.exe         1 143 42  normal       C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\ADS
+3e94 Adobe CEF Helper.exe              1 21  3   normal       C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\HEX
+40a8 slack.exe                         1 0   1   idle         C:\Users\sdemewoz\AppData\Local\slack\app-3.3.3
+42dc CoreSync.exe                      1 0   7   normal       C:\Program Files (x86)\Adobe\Adobe Sync\CoreSync
+4358 CCXProcess.exe                    1 0   0   normal       C:\Program Files (x86)\Adobe\Adobe Creative Cloud Experience
+436c node.exe                          1 0   4   normal       C:\Program Files (x86)\Adobe\Adobe Creative Cloud Experience\libs
+25fc Adobe CEF Helper.exe              1 21  3   normal       C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\HEX
+3af4 conhost.exe                       1 10  3   normal       C:\Windows\System32
+432c rubyw.exe                         0 0   0
+2a64 rubyw.exe                         0 0   0
+2de0 ApplicationFrameHost.exe          1 78  54  normal       C:\Windows\System32
+2308 svchost.exe                       0 0   0
+32ec TGitCache.exe                     1 0   3   normal       C:\Program Files\TortoiseGit\bin
+0c70 svchost.exe                       0 0   0
+3344 rubyw.exe                         0 0   0
+2588 LockApp.exe                       1 6   20  normal       C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy
+1e50 RuntimeBroker.exe                 1 49  12  normal       C:\Windows\System32
+38a8 rubyw.exe                         0 0   0
+08d8 rubyw.exe                         0 0   0
+4190 CcmExec.exe                       0 0   0
+06ac CmRcService.exe                   0 0   0
+4188 WmiPrvSE.exe                      0 0   0
+2cf0 WmiPrvSE.exe                      0 0   0
+2908 SgrmBroker.exe                    0 0   0
+14d0 svchost.exe                       0 0   0
+0bb0 rubyw.exe                         0 0   0
+2df4 nginx.exe                         0 0   0
+169c nginx.exe                         0 0   0
+3250 conhost.exe                       0 0   0
+253c rubyw.exe                         0 0   0
+36c0 WmiPrvSE.exe                      0 0   0
+0b28 Microsoft.Photos.exe              1 0   12  normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_2018.18081.14710.0_x64__8wekyb3d8bbwe
+0cb0 RuntimeBroker.exe                 1 37  19  normal       C:\Windows\System32
+0730 WmiPrvSE.exe                      0 0   0
+121c WinStore.App.exe                  1 0   29  normal       C:\Program Files\WindowsApps\Microsoft.WindowsStore_11809.1001.8.0_x64__8wekyb3d8bbwe
+3894 RuntimeBroker.exe                 1 0   2   normal       C:\Windows\System32
+1e54 SCNotification.exe                1 7   10  normal       C:\Windows\CCM
+301c Calculator.exe                    1 0   24  normal       C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_10.1809.2731.0_x64__8wekyb3d8bbwe
+0628 svchost.exe                       0 0   0
+33b8 SettingSyncHost.exe               1 0   4   below normal C:\Windows\System32
+1d38 svchost.exe                       0 0   0
+40cc svchost.exe                       0 0   0
+4108 client64.exe                      0 0   0
+318c CiscoCollabHost.exe               1 0   1   normal       C:\Users\sdemewoz\AppData\Local\CiscoSparkLauncher
+3904 dllhost.exe                       1 0   3   normal       C:\Windows\System32
+3380 slack.exe                         1 0   1   idle         C:\Users\sdemewoz\AppData\Local\slack\app-3.3.3
+2a8c OUTLOOK.EXE                       1 694 439 normal       C:\Program Files\Microsoft Office\root\Office16
+3190 firefox.exe                       1 127 120 normal       C:\Program Files (x86)\Mozilla Firefox
+2f7c firefox.exe                       1 13  10  normal       C:\Program Files (x86)\Mozilla Firefox
+0b64 iexplore.exe                      1 568 140 normal       C:\Program Files\internet explorer
+11e0 iexplore.exe                      1 13  66  normal       C:\Program Files (x86)\Internet Explorer
+0b04 firefox.exe                       1 2   18  normal       C:\Program Files (x86)\Mozilla Firefox
+3930 firefox.exe                       1 2   3   normal       C:\Program Files (x86)\Mozilla Firefox
+3394 Ranorex.Plugin.FirefoxMsgHost.exe 1 0   2   normal       C:\Program Files (x86)\Ranorex 8.2\Bin
+364c firefox.exe                       1 2   20  normal       C:\Program Files (x86)\Mozilla Firefox
+2964 firefox.exe                       1 2   18  normal       C:\Program Files (x86)\Mozilla Firefox
+1538 SystemSettings.exe                1 11  38  normal       C:\Windows\ImmersiveControlPanel
+437c svchost.exe                       0 0   0
+1a58 svchost.exe                       0 0   0
+13c0 Video.UI.exe                      1 0   15  normal       C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.18082.13811.0_x64__8wekyb3d8bbwe
+2720 RuntimeBroker.exe                 1 0   2   normal       C:\Windows\System32
+3948 firefox.exe                       1 2   16  normal       C:\Program Files (x86)\Mozilla Firefox
+1af8 notepad.exe                       1 20  25  normal       C:\Windows\System32
+3134 dcondemand.exe                    0 0   0
+18fc conhost.exe                       0 0   0
+33ac apc.exe                           1 956 640 normal       C:\Users\sdemewoz\AppData\Local\Albelli Fotoboeken
+3488 svchost.exe                       0 0   0
+479c svchost.exe                       1 4   8   normal       C:\Windows\System32
+
+hardware:
++ {1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}
+  - \\amsprntsrv01\ALBELLI_BLACK
+  - \\amsprntsrv01\ALBELLI_COLOR
+  - Adobe PDF
+  - Fax
+  - Microsoft Print to PDF
+  - Microsoft XPS Document Writer
+  - Root Print Queue
+  - Send To OneNote 2016
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
+  - USB Mass Storage Device
+  - USB Root Hub (USB 3.0)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - ACPI x64-based PC
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - Generic- Compact Flash USB Device
+  - Generic- MS/MS-PRO USB Device
+  - Generic- SD/MMC USB Device
+  - Generic- xD-Picture USB Device
+  - Samsung SSD 850 PRO 256GB
+  - ST2000DM 001-1ER164
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - Intel(R) HD Graphics 530 (driver 23.20.16.4849)
+  - NVIDIA GeForce GTX 745 (driver 23.21.13.9135)
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - HID Keyboard Device
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Display Audio (driver 10.24.0.1)
+  - JBL Everest Elite 750NC Hands-Free
+  - JBL Everest Elite 750NC Stereo
+  - NVIDIA High Definition Audio (driver 1.3.36.6)
+  - NVIDIA Virtual Audio Device (Wave Extensible) (WDM) (driver 4.4.0.0)
+  - Realtek Audio (driver 6.0.1.7908)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - Generic PnP Monitor
+  - Generic PnP Monitor
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Bluetooth Device (Personal Area Network)
+  - Bluetooth Device (RFCOMM Protocol TDI)
+  - Dell Wireless 1801 802.11bgn
+  - Fortinet SSL VPN Virtual Ethernet Adapter (driver 2017.3.22.0)
+  - Hyper-V Virtual Ethernet Adapter
+  - Hyper-V Virtual Switch Extension Adapter
+  - Intel(R) Ethernet Connection (2) I219-V (driver 12.13.17.4)
+  - Microsoft Kernel Debug Network Adapter
+  - PdaNet Broadband Adapter (driver 3.0.1.0)
+  - PPPoP WAN Adapter (driver 2016.3.22.0)
+  - WAN Miniport (IKEv2)
+  - WAN Miniport (IP)
+  - WAN Miniport (IPv6)
+  - WAN Miniport (L2TP)
+  - WAN Miniport (Network Monitor)
+  - WAN Miniport (PPPOE)
+  - WAN Miniport (PPTP)
+  - WAN Miniport (SSTP)
++ {4d36e978-e325-11ce-bfc1-08002be10318}
+  - Standard Serial over Bluetooth link (COM4)
+  - Standard Serial over Bluetooth link (COM5)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - Intel Chipset SATA RAID Controller (driver 15.44.0.1010)
+  - Microsoft Storage Spaces Controller
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fan
+  - ACPI Fixed Feature Button
+  - ACPI Power Button
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - ACPI Thermal Zone
+  - Composite Bus Enumerator
+  - CrowdStrike Sensor Interface Device (driver 4.13.7651.0)
+  - High Definition Audio Controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 100 Series/C230 Series Chipset Family LPC Controller - A145 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family PCI Express Root Port #1 - A110 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family PMC - A121 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family SMBus - A123 (driver 10.1.1.13)
+  - Intel(R) 100 Series/C230 Series Chipset Family Thermal subsystem - A131 (driver 10.1.1.12)
+  - Intel(R) Management Engine Interface  (driver 11.0.0.1166)
+  - Intel(R) Power Engine Plug-in
+  - IWD Bus Enumerator (driver 6.5.54.0)
+  - JBL Everest Elite 750NC Hands-Free Audio and Call Control HID Enumerator
+  - Legacy device
+  - Microsoft ACPI-Compliant System
+  - Microsoft Basic Display Driver
+  - Microsoft Basic Render Driver
+  - Microsoft Hyper-V PCI Server
+  - Microsoft Hyper-V Virtual Disk Server
+  - Microsoft Hyper-V Virtual Machine Bus Provider
+  - Microsoft Hyper-V Virtualization Infrastructure Driver
+  - Microsoft RemoteFX Synth3D VSP Driver
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI-Compliant System
+  - Microsoft Virtual Drive Enumerator
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - NDIS Virtual Network Adapter Enumerator
+  - Numeric data processor
+  - NVVHCI Enumerator (driver 2.2.2151.6378)
+  - PCI Express Root Complex
+  - PCI Express Root Port
+  - PCI standard host CPU bridge
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Camera Bus
+  - Remote Desktop Device Redirector Bus
+  - Remote Desktop USB Hub
+  - System CMOS/real time clock
+  - System timer
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
++ {5175d334-c371-4806-b3ba-71fd53c9258d}
+  - Microsoft Visual Studio Location Simulator Sensor (driver 11.0.0.0)
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
+  - Generic volume shadow copy
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Bluetooth
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS Wavetable Synth
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - USB Input Device
+  - USB Input Device
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - DELL U2414H (Intel(R) Display Audio)
+  - DELL U2414H (NVIDIA High Definition Audio)
++ {d94ee5d8-d189-4994-83d2-f68d7d41b0e6}
+  - Trusted Platform Module 2.0
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - Audio Source Service
+  - Dell Wireless 1801 Bluetooth 4.0 LE (driver 1.3.879.3)
+  - Galaxy S6
+  - Galaxy S6 Avrcp Transport Adapter
+  - Handsfree Audio Gateway Service
+  - Headset Audio Gateway Service
+  - JBL Everest Elite 750NC
+  - JBL Everest Elite 750NC Avrcp Transport Adapter
+  - JBL Everest Elite 750NC Avrcp Transport Adapter
+  - Microsoft Bluetooth Enumerator
+  - Microsoft Bluetooth LE Enumerator
+  - Object Push Service
+  - Personal Area Network NAP Service
+  - Personal Area Network Service
+  - Phonebook Access Pse Service
+  - Sim Access Service
++ {eec5ad98-8080-425f-922a-dabf3de3f69a}
+  - E:\
+  - F:\
+  - G:\
+  - H:\
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - System Firmware
+
+cpu registers:
+eax = 00000000
+ebx = 01dbe8c4
+ecx = 0137ad20
+edx = 00000000
+esi = 00000000
+edi = 00000000
+eip = 008d18b6
+esp = 0019a3c4
+ebp = 0019a3cc
+
+stack dump:
+0019a3c4  00 00 00 00 c0 20 bb 24 - dc a3 19 00 f4 62 de 01  ..... .$.....b..
+0019a3d4  01 00 00 00 b0 1a 03 1b - ec a3 19 00 61 5c de 01  ............a\..
+0019a3e4  01 00 00 00 b0 1a 03 1b - 00 a4 19 00 28 c4 dd 01  ............(...
+0019a3f4  01 00 00 00 02 00 01 00 - 20 ad 37 0e 40 a4 19 00  ........ .7.@...
+0019a404  5b 10 e0 01 14 a4 19 00 - f8 b5 40 00 40 a4 19 00  [.........@.@...
+0019a414  68 a4 19 00 f8 b5 40 00 - 40 a4 19 00 80 37 dc 01  h.....@.@....7..
+0019a424  00 00 00 00 18 00 00 00 - 00 00 00 00 02 00 00 00  ................
+0019a434  19 00 00 00 02 00 00 00 - f0 dd d8 04 60 a4 19 00  ............`...
+0019a444  97 0e e0 01 00 dd d8 04 - 80 37 dc 01 9c a4 19 00  .........7......
+0019a454  64 0d 41 00 e0 64 00 01 - f0 dd d8 04 9c a4 19 00  d.A..d..........
+0019a464  42 6f 53 01 e4 a4 19 00 - f8 b5 40 00 9c a4 19 00  BoS.......@.....
+0019a474  98 56 53 01 00 00 00 00 - 00 00 00 00 00 00 00 00  .VS.............
+0019a484  00 00 00 00 00 00 00 00 - 00 00 00 00 e0 ad 37 24  ..............7$
+0019a494  00 00 00 00 98 ac ae 21 - b8 a4 19 00 c3 8d 53 01  .......!......S.
+0019a4a4  30 3b 8f 0e 53 00 00 00 - 50 02 bd 1c 80 ac e0 04  0;..S...P.......
+0019a4b4  80 ac e0 04 cc a4 19 00 - cb 8f 53 01 00 aa 72 0b  ..........S...r.
+0019a4c4  00 aa 72 0b 80 ac e0 04 - dc a4 19 00 f4 49 53 01  ..r..........IS.
+0019a4d4  80 fc 8f 0c 00 aa 72 0b - 34 a5 19 00 30 99 4d 00  ......r.4...0.M.
+0019a4e4  f0 a4 19 00 c8 b3 40 00 - 34 a5 19 00 fc a4 19 00  ......@.4.......
+0019a4f4  bc 99 4d 00 34 a5 19 00 - 08 a5 19 00 14 9a 4d 00  ..M.4.........M.
+
+disassembling:
+[...]
+008d18a5         mov     ebp, esp
+008d18a7         add     esp, -8
+008d18aa         mov     [ebp-4], eax
+008d18ad 19294   mov     eax, [ebp-4]
+008d18b0         mov     eax, [eax+$78c]
+008d18b6       > mov     eax, [eax+8]
+008d18b9         mov     [ebp-8], eax
+008d18bc 19295   mov     eax, [ebp-8]
+008d18bf         pop     ecx
+008d18c0         pop     ecx
+008d18c1         pop     ebp
+[...]
